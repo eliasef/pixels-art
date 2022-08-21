@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: "Red Hat Mono",monospace;
+}
+
+#color-palette {
+    margin-right: 36px
+} 
+
+#pixel-board {
+    margin-right: 36px;
+}
+
+.color {
+    border: 1px solid rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 7px;
+ 
+}
+
+.pixel {
+    border: 1px solid rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.selected {
+    background-color: rgb(255, 0, 0);
+}
+
+#clear-board {
+    margin-bottom: 10px;
+}
+
+#board-size {
+    width: 50px;
+}
